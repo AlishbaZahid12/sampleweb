@@ -1,0 +1,47 @@
+/* Simple clean design */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f8fc;
+  color: #222;
+}
+
+header {
+  background: #3b5998;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #3b5998;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
